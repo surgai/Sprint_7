@@ -28,6 +28,6 @@ class Orders:
         "deliveryDate": "2024-06-23",
         "comment": "Test",
         "color": [
-            "RED"
+            "BLACK"
         ]
     }

@@ -1,6 +1,5 @@
 import allure
 import requests
-
 from urls import Urls
 from generation import register_new_courier_and_return_login_password as gen
 from generation import register_new_courier_without_login as gen_without_login
