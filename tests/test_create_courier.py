@@ -13,9 +13,7 @@ class TestCreateCourier:
     def test_create_courier(self):
         CREATE_COURIER = '/api/v1/courier'
         response_body = '{"ok":true}'
-        response = requests.post(
-            f'{Urls.URL}{CREATE_COURIER}',
-            TestCreateCourier.data)
+        response = requests.post(f'{Urls.URL}{CREATE_COURIER}', TestCreateCourier.data)
         assert response.status_code == 201 and response.text == response_body
 
     @allure.title('Нельзя создать двух одинаковых курьеров с одинаковыми логинами')
