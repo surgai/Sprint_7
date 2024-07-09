@@ -1,0 +1,1 @@
+{"name": "Нельзя создать двух одинаковых курьеров с одинаковыми логинами", "status": "passed", "start": 1719853458276, "stop": 1719853467486, "uuid": "033b9712-5358-4ae9-af01-0b934d1b94d6", "testCaseId": "10c542b54ef004534138efb30af59d24", "fullName": "tests.test_create_courier.TestCreateCourier#test_courier_was_created"}
